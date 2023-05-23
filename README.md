@@ -1,4 +1,4 @@
-# LEA_KISA
+# LEA_KISA / COPYRIGHT @KISA. ALL RIGHTS RESERVED.
 Original Kisa code_Install version
 # LEA 암호 리눅스 커널 모듈
 - 버전 1.0
