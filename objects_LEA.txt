@@ -1,0 +1,41 @@
+
+# Definition for LEA cipher - ECB, CBC, CTR, OFB, CFB, CCM, GCM, CMAC
+!Alias LEA_cipher_suite csor 5
+!Alias lea LEA_cipher_suite 1
+
+lea 1			: LEA-128-ECB		: lea-128-ecb
+lea 2			: LEA-128-CBC		: lea-128-cbc
+!Cname lea-128-ofb128
+lea 3			: LEA-128-OFB		: lea-128-ofb
+!Cname lea-128-cfb128
+lea 4			: LEA-128-CFB		: lea-128-cfb
+lea 6			: id-lea128-GCM		: lea-128-gcm
+lea 7			: id-lea128-CCM		: lea-128-ccm
+
+lea 21			: LEA-192-ECB		: lea-192-ecb
+lea 22			: LEA-192-CBC		: lea-192-cbc
+!Cname lea-192-ofb128
+lea 23			: LEA-192-OFB		: lea-192-ofb
+!Cname lea-192-cfb128
+lea 24			: LEA-192-CFB		: lea-192-cfb
+lea 26			: id-lea192-GCM		: lea-192-gcm
+lea 27			: id-lea192-CCM		: lea-192-ccm
+
+lea 41			: LEA-256-ECB		: lea-256-ecb
+lea 42			: LEA-256-CBC		: lea-256-cbc
+!Cname lea-256-ofb128
+lea 43			: LEA-256-OFB		: lea-256-ofb
+!Cname lea-256-cfb128
+lea 44			: LEA-256-CFB		: lea-256-cfb
+lea 46			: id-lea256-GCM		: lea-256-gcm
+lea 47			: id-lea256-CCM		: lea-256-ccm
+
+			: LEA-128-CFB1		: lea-128-cfb1
+			: LEA-192-CFB1		: lea-192-cfb1
+			: LEA-256-CFB1		: lea-256-cfb1
+			: LEA-128-CFB8		: lea-128-cfb8
+			: LEA-192-CFB8		: lea-192-cfb8
+			: LEA-256-CFB8		: lea-256-cfb8
+			: LEA-128-CTR		: lea-128-ctr
+			: LEA-192-CTR		: lea-192-ctr
+			: LEA-256-CTR		: lea-256-ctr
